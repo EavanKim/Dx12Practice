@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{98751f71-2bf8-493e-b87c-a6e7785d4014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00_Base">
+      <UniqueIdentifier>{ece5c517-f4d8-4c71-b6cb-41a3c93e798d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01_Win">
+      <UniqueIdentifier>{2b356bc0-352a-4118-8606-f0c1d6bf3b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Device">
+      <UniqueIdentifier>{0408e275-ab40-41c1-85bd-4125894cb730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Object">
+      <UniqueIdentifier>{0b446d05-917e-48df-8b9d-5ab916d4541c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02_Device\00_Buffer">
+      <UniqueIdentifier>{1108c626-234a-47ed-83fb-87aecc21b733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Object\00_Logic">
+      <UniqueIdentifier>{359fa078-c2b0-4c14-9975-26169bde6514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Object\01_Resource">
+      <UniqueIdentifier>{634545a1-582d-48c4-97e1-d7a817707629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Object\01_Resource\Sprite">
+      <UniqueIdentifier>{fe9ee7ac-abb3-4255-b011-6f824004a742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03_Object\00_Logic\00_Player">
+      <UniqueIdentifier>{b232f386-30b8-4e89-bc74-7bdbbe78cd98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EW_Engine.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="EW_Base.h">
+      <Filter>00_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="EW_Device.h">
+      <Filter>02_Device</Filter>
+    </ClInclude>
+    <ClInclude Include="EW_Window.h">
+      <Filter>01_Win</Filter>
+    </ClInclude>
+    <ClInclude Include="EW_Buffer.h">
+      <Filter>02_Device\00_Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="EW_Scene.h">
+      <Filter>03_Object\00_Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="EW_Obj.h">
+      <Filter>03_Object\01_Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="EW_Sprite.h">
+      <Filter>03_Object\01_Resource\Sprite</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EW_Engine.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="EW_Engine.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EW_Engine.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="EW_Device.cpp">
+      <Filter>02_Device</Filter>
+    </ClCompile>
+    <ClCompile Include="EW_Window.cpp">
+      <Filter>01_Win</Filter>
+    </ClCompile>
+    <ClCompile Include="EW_Scene.cpp">
+      <Filter>03_Object\00_Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="EW_Obj.cpp">
+      <Filter>03_Object\01_Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="EW_Sprite.cpp">
+      <Filter>03_Object\01_Resource\Sprite</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EW_Base.inl">
+      <Filter>00_Base</Filter>
+    </None>
+  </ItemGroup>
+</Project>

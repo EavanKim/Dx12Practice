@@ -1,0 +1,94 @@
+﻿빌드 시작: 11/4/2020 7:21:45 PM
+로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>2 노드의 "D:\GitHub\Dx12Practice\EW_Engine\EW_Engine.vcxproj" 프로젝트(Build 대상)입니다.
+     1>PrepareForBuild:
+         "D:\GitHub\Dx12Practice\x64\Debug\" 디렉터리를 만들고 있습니다.
+         "x64\Debug\EW_Engine.tlog\" 디렉터리를 만들고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\EW_Engine.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt EW_Device.cpp EW_Engine.cpp EW_Obj.cpp EW_Scene.cpp EW_Sprite.cpp EW_Window.cpp
+         EW_Device.cpp
+     1>D:\GitHub\Dx12Practice\EW_Engine\EW_Device.cpp(425,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+     1>D:\GitHub\Dx12Practice\EW_Engine\EW_Device.cpp(521,7): error C4235: 비표준 확장이 사용됨: 이 아키텍처에서는 '__asm' 키워드를 사용할 수 없습니다.
+     1>D:\GitHub\Dx12Practice\EW_Engine\EW_Device.cpp(521,17): error C2059: 구문 오류: '상수'
+         EW_Engine.cpp
+         EW_Obj.cpp
+         EW_Scene.cpp
+         EW_Sprite.cpp
+         EW_Window.cpp
+         코드를 생성하고 있습니다...
+     1>"D:\GitHub\Dx12Practice\EW_Engine\EW_Engine.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+프로젝트 성능 요약:
+    11333ms  D:\GitHub\Dx12Practice\EW_Engine\EW_Engine.vcxproj   1회 호출
+              11333ms  Build                                      1회 호출
+
+대상 성능 요약:
+        0ms  PreBuildEvent                              1회 호출
+        0ms  CheckInstalledVCLibsIPP                    1회 호출
+        0ms  _SelectedFiles                             1회 호출
+        0ms  SelectCustomBuild                          1회 호출
+        0ms  ComputeCustomBuildOutput                   1회 호출
+        0ms  _Xsd                                       1회 호출
+        0ms  MakeDirsForMidl                            1회 호출
+        0ms  ComputeMIDLGeneratedCompileInputs          1회 호출
+        0ms  AfterMidl                                  1회 호출
+        0ms  BuildGenerateSourcesTraverse               1회 호출
+        0ms  _Midl                                      1회 호출
+        0ms  AfterBuildGenerateSourcesEvent             1회 호출
+        0ms  _BuildGenerateSourcesAction                1회 호출
+        0ms  BuildGenerateSources                       1회 호출
+        0ms  BeforeClCompile                            1회 호출
+        0ms  ComputeCLInputPDBName                      1회 호출
+        0ms  FindReferenceAssembliesForReferences       1회 호출
+        0ms  ComputeReferenceCLInput                    1회 호출
+        0ms  FixupCLCompileOptions                      1회 호출
+        0ms  AfterBuildGenerateSources                  1회 호출
+        0ms  ResolveReferences                          1회 호출
+        0ms  BeforeBuildGenerateSources                 1회 호출
+        0ms  GetFrameworkPaths                          1회 호출
+        0ms  _PrepareForReferenceResolution             1회 호출
+        0ms  BeforeResolveReferences                    1회 호출
+        0ms  PrepareProjectReferences                   1회 호출
+        0ms  AfterResolveReferences                     1회 호출
+        0ms  GetReferenceAssemblyPaths                  1회 호출
+        0ms  GetResolvedWinMD                           1회 호출
+        0ms  SelectClCompile                            1회 호출
+        0ms  SetCABuildNativeEnvironmentVariables       1회 호출
+        0ms  ExpandSDKReferences                        1회 호출
+        0ms  ResolveSDKReferences                       1회 호출
+        0ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
+        1ms  _SplitProjectReferencesByFileExistence     1회 호출
+        1ms  CopyFileToFolders                          1회 호출
+        1ms  SetBuildDefaultEnvironmentVariables        1회 호출
+        1ms  ResolveAssemblyReferences                  1회 호출
+        1ms  _PrepareForBuild                           1회 호출
+        1ms  BuildCompileTraverse                       1회 호출
+        3ms  AssignProjectConfiguration                 1회 호출
+        5ms  InitializeBuildStatus                      1회 호출
+        5ms  MakeDirsForCl                              1회 호출
+        5ms  CustomBuild                                1회 호출
+        6ms  WarnCompileDuplicatedFilename              1회 호출
+        9ms  SetTelemetryEnvironmentVariables           1회 호출
+       16ms  _CheckWindowsSDKInstalled                  1회 호출
+       17ms  ResolveProjectReferences                   1회 호출
+       27ms  PrepareForBuild                            1회 호출
+       27ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
+    11201ms  ClCompile                                  1회 호출
+
+빌드하지 못했습니다.
+
+       "D:\GitHub\Dx12Practice\EW_Engine\EW_Engine.vcxproj"(Build 대상)(1) ->
+       (ClCompile 대상) -> 
+         D:\GitHub\Dx12Practice\EW_Engine\EW_Device.cpp(425,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+
+
+       "D:\GitHub\Dx12Practice\EW_Engine\EW_Engine.vcxproj"(Build 대상)(1) ->
+       (ClCompile 대상) -> 
+         D:\GitHub\Dx12Practice\EW_Engine\EW_Device.cpp(521,7): error C4235: 비표준 확장이 사용됨: 이 아키텍처에서는 '__asm' 키워드를 사용할 수 없습니다.
+         D:\GitHub\Dx12Practice\EW_Engine\EW_Device.cpp(521,17): error C2059: 구문 오류: '상수'
+
+    경고 1개
+    오류 2개
+
+경과 시간: 00:00:11.31

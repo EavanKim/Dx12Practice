@@ -1,45 +1,50 @@
-﻿빌드 시작: 11/2/2020 10:43:16 PM
-로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>2 노드의 "C:\Users\Eavan\source\repos\EW_Engine\EW_Engine\EW_Engine.vcxproj" 프로젝트(Build 대상)입니다.
+﻿빌드 시작: 11/4/2020 7:22:09 PM
+로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>2 노드의 "D:\GitHub\Dx12Practice\EW_Engine\EW_Engine.vcxproj" 프로젝트(Build 대상)입니다.
      1>InitializeBuildStatus:
          "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\EW_Engine.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"Debug\EW_Engine.pch" /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt EW_Engine.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"pch.h" /Fp"Debug\EW_Engine.pch" /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt EW_Device.cpp EW_Engine.cpp EW_Obj.cpp EW_Scene.cpp EW_Sprite.cpp EW_Window.cpp
+         EW_Device.cpp
+     1>D:\GitHub\Dx12Practice\EW_Engine\EW_Device.cpp(425,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
          EW_Engine.cpp
+         EW_Obj.cpp
+         EW_Scene.cpp
+         EW_Sprite.cpp
+         EW_Window.cpp
        ResourceCompile:
-         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\EW_Engine.res" EW_Engine.rc 
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Eavan\source\repos\EW_Engine\Debug\EW_Engine.exe" /INCREMENTAL /NOLOGO dxgi.lib d3d12.lib d3dcompiler.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Eavan\source\repos\EW_Engine\Debug\EW_Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Eavan\source\repos\EW_Engine\Debug\EW_Engine.lib" /MACHINE:X86 Debug\EW_Engine.res
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\Dx12Practice\Debug\EW_Engine.exe" /INCREMENTAL /NOLOGO dxgi.lib d3d12.lib d3dcompiler.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"D:\GitHub\Dx12Practice\Debug\EW_Engine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\Dx12Practice\Debug\EW_Engine.lib" /MACHINE:X86 Debug\EW_Engine.res
          Debug\EW_Device.obj
          Debug\EW_Engine.obj
          Debug\EW_Obj.obj
          Debug\EW_Scene.obj
          Debug\EW_Sprite.obj
          Debug\EW_Window.obj
-         EW_Engine.vcxproj -> C:\Users\Eavan\source\repos\EW_Engine\Debug\EW_Engine.exe
+         EW_Engine.vcxproj -> D:\GitHub\Dx12Practice\Debug\EW_Engine.exe
        FinalizeBuildStatus:
          "Debug\EW_Engine.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
          "Debug\EW_Engine.tlog\EW_Engine.lastbuildstate"에 연결(touching)하고 있습니다.
-     1>"C:\Users\Eavan\source\repos\EW_Engine\EW_Engine\EW_Engine.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+     1>"D:\GitHub\Dx12Practice\EW_Engine\EW_Engine.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 프로젝트 성능 요약:
-     2972ms  C:\Users\Eavan\source\repos\EW_Engine\EW_Engine\EW_Engine.vcxproj   1회 호출
-               2972ms  Build                                      1회 호출
+    14312ms  D:\GitHub\Dx12Practice\EW_Engine\EW_Engine.vcxproj   1회 호출
+              14312ms  Build                                      1회 호출
 
 대상 성능 요약:
         0ms  _BuildCompileAction                        1회 호출
+        0ms  _ALink                                     1회 호출
+        0ms  _Link                                      1회 호출
         0ms  AfterLink                                  1회 호출
-        0ms  ComputeLinkImportLibraryOutputsForClean    1회 호출
         0ms  PreLinkEvent                               1회 호출
         0ms  DoLinkOutputFilesMatch                     1회 호출
         0ms  PrepareResourceNames                       1회 호출
         0ms  CreateCustomManifestResourceNames          1회 호출
-        0ms  SplitResourcesByCulture                    1회 호출
         0ms  ComputeManifestInputsTargets               1회 호출
         0ms  ComputeLinkInputsFromProject               1회 호출
         0ms  ComputeCLGeneratedLinkInputs               1회 호출
-        0ms  _Link                                      1회 호출
         0ms  ComputeCLOutputs                           1회 호출
-        0ms  ComputeRCGeneratedLinkInputs               1회 호출
+        0ms  ComputeManifestGeneratedLinkerInputs       1회 호출
         0ms  BeforeLink                                 1회 호출
         0ms  ComputeLegacyManifestEmbedding             1회 호출
         0ms  BuildLinkTraverse                          1회 호출
@@ -48,50 +53,46 @@
         0ms  _ResourceCompile                           1회 호출
         0ms  AfterResourceCompile                       1회 호출
         0ms  SelectResourceCompile                      1회 호출
-        0ms  MakeDirsForResourceCompile                 1회 호출
-        0ms  ComputeManifestGeneratedLinkerInputs       1회 호출
-        0ms  _ALink                                     1회 호출
+        0ms  BeforeResourceCompile                      1회 호출
         0ms  _Manifest                                  1회 호출
         0ms  RegisterOutput                             1회 호출
+        0ms  ResolvedXDCMake                            1회 호출
+        0ms  ComputeCLCompileGeneratedXDCFiles          1회 호출
         0ms  AfterBuild                                 1회 호출
         0ms  BuildLink                                  1회 호출
         0ms  _BuildLinkAction                           1회 호출
         0ms  PostBuildEvent                             1회 호출
         0ms  PrepareForRun                              1회 호출
-        0ms  _CheckForCompileOutputs                    1회 호출
+        0ms  CopyFilesToOutputDirectory                 1회 호출
         0ms  _CopySourceItemsToOutputDirectory          1회 호출
         0ms  _GetCopyToOutputDirectoryItemsFromThisProject   1회 호출
+        0ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1회 호출
         0ms  GetCopyToOutputDirectoryXamlAppDefs        1회 호출
+        0ms  _ClCompile                                 1회 호출
         0ms  _PopulateCommonStateForGetCopyToOutputDirectoryItems   1회 호출
-        0ms  _Deploy                                    1회 호출
         0ms  _Appverifier                               1회 호출
-        0ms  CreateSatelliteAssemblies                  1회 호출
+        0ms  _GenerateSatelliteAssemblyInputs           1회 호출
         0ms  ResolvedLinkLib                            1회 호출
+        0ms  ContentFilesProjectOutputGroup             1회 호출
         0ms  MakeDirsForFxc                             1회 호출
-        0ms  SatelliteDllsProjectOutputGroup            1회 호출
         0ms  BuiltProjectOutputGroup                    1회 호출
         0ms  _BscMake                                   1회 호출
-        0ms  ComputeCLCompileGeneratedSbrFiles          1회 호출
+        0ms  MakeDirsForBscMake                         1회 호출
         0ms  _XdcMake                                   1회 호출
         0ms  MakeDirsForXdcMake                         1회 호출
-        0ms  ComputeCLCompileGeneratedXDCFiles          1회 호출
-        0ms  ResolvedXDCMake                            1회 호출
-        0ms  BeforeResourceCompile                      1회 호출
-        0ms  _ClCompile                                 1회 호출
-        0ms  Build                                      1회 호출
-        0ms  BeforeBuildGenerateSources                 1회 호출
-        0ms  _PrepareForBuild                           1회 호출
-        0ms  SelectCustomBuild                          1회 호출
-        0ms  _SelectedFiles                             1회 호출
-        0ms  PreBuildEvent                              1회 호출
+        0ms  _Deploy                                    1회 호출
         0ms  AfterClCompile                             1회 호출
+        0ms  Build                                      1회 호출
+        0ms  CheckInstalledVCLibsIPP                    1회 호출
+        0ms  SelectCustomBuild                          1회 호출
+        0ms  PreBuildEvent                              1회 호출
+        0ms  BeforeBuildGenerateSources                 1회 호출
         0ms  BuildGenerateSourcesTraverse               1회 호출
-        0ms  _PrepareForReferenceResolution             1회 호출
         0ms  ResolveReferences                          1회 호출
         0ms  AfterResolveReferences                     1회 호출
-        0ms  CopyFileToFolders                          1회 호출
         0ms  ResolveAssemblyReferences                  1회 호출
-        0ms  BeforeResolveReferences                    1회 호출
+        0ms  ExpandSDKReferences                        1회 호출
+        0ms  ResolveSDKReferences                       1회 호출
         0ms  SetCABuildNativeEnvironmentVariables       1회 호출
         0ms  GetResolvedWinMD                           1회 호출
         0ms  SetBuildDefaultEnvironmentVariables        1회 호출
@@ -100,56 +101,66 @@
         0ms  ResolveProjectReferences                   1회 호출
         0ms  PrepareProjectReferences                   1회 호출
         0ms  _SplitProjectReferencesByFileExistence     1회 호출
-        0ms  ExpandSDKReferences                        1회 호출
+        0ms  AssignProjectConfiguration                 1회 호출
+        0ms  BeforeResolveReferences                    1회 호출
+        0ms  _PrepareForBuild                           1회 호출
+        0ms  SetTelemetryEnvironmentVariables           1회 호출
+        0ms  CopyFileToFolders                          1회 호출
         0ms  _Xsd                                       1회 호출
-        0ms  ComputeCustomBuildOutput                   1회 호출
-        0ms  MakeDirsForMidl                            1회 호출
+        0ms  _SelectedFiles                             1회 호출
+        0ms  BuildCompileTraverse                       1회 호출
+        0ms  SelectClCompile                            1회 호출
+        0ms  MakeDirsForCl                              1회 호출
+        0ms  ComputeReferenceCLInput                    1회 호출
+        0ms  FindReferenceAssembliesForReferences       1회 호출
         0ms  ComputeCLInputPDBName                      1회 호출
         0ms  BeforeClCompile                            1회 호출
-        0ms  MakeDirsForCl                              1회 호출
-        0ms  BuildCompileTraverse                       1회 호출
+        0ms  MakeDirsForMidl                            1회 호출
         0ms  BuildGenerateSources                       1회 호출
-        0ms  _BuildGenerateSourcesAction                1회 호출
-        0ms  FindReferenceAssembliesForReferences       1회 호출
-        0ms  AfterBuildGenerateSourcesEvent             1회 호출
-        0ms  _Midl                                      1회 호출
         0ms  AfterMidl                                  1회 호출
-        0ms  SelectClCompile                            1회 호출
-        0ms  CheckInstalledVCLibsIPP                    1회 호출
-        0ms  ComputeMIDLGeneratedCompileInputs          1회 호출
+        0ms  _Midl                                      1회 호출
         0ms  AfterBuildGenerateSources                  1회 호출
-        0ms  ComputeReferenceCLInput                    1회 호출
-        1ms  _GenerateSatelliteAssemblyInputs           1회 호출
-        1ms  WarnCompileDuplicatedFilename              1회 호출
-        1ms  GetCopyToOutputDirectoryItems              1회 호출
-        1ms  _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1회 호출
-        1ms  ResolveSDKReferences                       1회 호출
-        1ms  AssignTargetPaths                          1회 호출
-        1ms  ComputeLinkSwitches                        1회 호출
-        1ms  _CleanGetCurrentAndPriorFileWrites         1회 호출
-        1ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
-        1ms  MakeDirsForBscMake                         1회 호출
-        1ms  IncrementalClean                           1회 호출
-        1ms  CopyFilesToOutputDirectory                 1회 호출
-        1ms  ContentFilesProjectOutputGroup             1회 호출
-        1ms  AssignProjectConfiguration                 1회 호출
-        1ms  ComputeRCOutputs                           1회 호출
-        1ms  _CheckWindowsSDKInstalled                  1회 호출
+        0ms  _BuildGenerateSourcesAction                1회 호출
+        0ms  AfterBuildGenerateSourcesEvent             1회 호출
+        1ms  ComputeRCGeneratedLinkInputs               1회 호출
         1ms  MakeDirsForLink                            1회 호출
+        1ms  _GetProjectReferenceTargetFrameworkProperties   1회 호출
+        1ms  WarnCompileDuplicatedFilename              1회 호출
+        1ms  CreateSatelliteAssemblies                  1회 호출
+        1ms  FinalizeBuildStatus                        1회 호출
+        1ms  ComputeRCOutputs                           1회 호출
+        1ms  CustomBuild                                1회 호출
+        1ms  ComputeCLCompileGeneratedSbrFiles          1회 호출
+        1ms  _CheckWindowsSDKInstalled                  1회 호출
+        1ms  GetCopyToOutputDirectoryItems              1회 호출
+        1ms  _PrepareForReferenceResolution             1회 호출
+        1ms  SplitResourcesByCulture                    1회 호출
+        1ms  _CheckForCompileOutputs                    1회 호출
+        1ms  ComputeMIDLGeneratedCompileInputs          1회 호출
+        1ms  IncrementalClean                           1회 호출
+        1ms  MakeDirsForResourceCompile                 1회 호출
+        1ms  ComputeLinkImportLibraryOutputsForClean    1회 호출
+        1ms  ComputeCustomBuildOutput                   1회 호출
+        1ms  AssignTargetPaths                          1회 호출
         1ms  FixupCLCompileOptions                      1회 호출
-        1ms  SetTelemetryEnvironmentVariables           1회 호출
-        1ms  CreateRecipeFile                           1회 호출
         2ms  _CheckForInvalidConfigurationAndPlatform   1회 호출
-        2ms  CustomBuild                                1회 호출
-        3ms  PrepareForBuild                            1회 호출
-        3ms  FinalizeBuildStatus                        1회 호출
+        2ms  _CleanGetCurrentAndPriorFileWrites         1회 호출
+        3ms  SatelliteDllsProjectOutputGroup            1회 호출
+        3ms  ComputeLinkSwitches                        1회 호출
         4ms  InitializeBuildStatus                      1회 호출
-        5ms  ResourceCompile                            1회 호출
-      307ms  Link                                       1회 호출
-     2620ms  ClCompile                                  1회 호출
+        6ms  CreateRecipeFile                           1회 호출
+        8ms  PrepareForBuild                            1회 호출
+      212ms  ResourceCompile                            1회 호출
+     1005ms  Link                                       1회 호출
+    13043ms  ClCompile                                  1회 호출
 
 빌드했습니다.
-    경고 0개
+
+       "D:\GitHub\Dx12Practice\EW_Engine\EW_Engine.vcxproj"(Build 대상)(1) ->
+       (ClCompile 대상) -> 
+         D:\GitHub\Dx12Practice\EW_Engine\EW_Device.cpp(425,24): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+
+    경고 1개
     오류 0개
 
-경과 시간: 00:00:02.97
+경과 시간: 00:00:14.31
